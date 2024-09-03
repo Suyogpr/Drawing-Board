@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="board" id="board">
+            <!-- Use canvas instead of divs for drawing -->
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+        <div class="row colors">
+            <div class="color-label">Colours:</div>
+            <div class="options">
+                <div class="color-button" id="color1" style="background-color: red;" data-color="red">1</div>
+                <div class="color-button selected" id="color2" style="background-color: black;" data-color="black">2</div>
+                <div class="color-button" id="color3" style="background-color: blue;" data-color="blue">3</div>
+                <div class="color-button" id="color4" style="background-color: yellow;" data-color="yellow">4</div>
+                <div class="color-button" id="color5" style="background-color: green;" data-color="green">5</div>
+                <div class="color-button" id="color6" style="background-color: magenta;" data-color="magenta">6</div>
+                <div class="color-button" id="color7" style="background-color: orange;" data-color="orange">7</div>
+            </div>
+            <button class="save">Save</button>
+            <button class="cancel">Cancel</button>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="board" id="board">
+            <canvas width="500px" width="500px"></canvas>
+        </div>
+        <!-- <div class="controls"> -->
+        <!-- <div class="row colors">
+            <div class="color-label">Colours:</div>
+            <div class="options">
+
+                <div class="color-button" id="color1" style="background-color: red;" data-color="red">1</div>
+                <div class="color-button selected" id="color2" style="background-color: black;" data-color="black">2</div>
+                <div class="color-button" id="color3" style="background-color: blue;" data-color="blue">3</div>
+                <div class="color-button" id="color4" style="background-color: yellow;" data-color="yellow">4</div>
+                <div class="color-button" id="color5" style="background-color: green;" data-color="green">5</div>
+                <div class="color-button" id="color6" style="background-color: magenta;" data-color="magenta">6</div>
+                <div class="color-button" id="color7" style="background-color: orange;" data-color="orange">7</div>
+            </div>
+            <button class="save">Save</button>
+            <button class="cancel">Cancel</button>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html> --> 
